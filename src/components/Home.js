@@ -18,7 +18,7 @@ export default function Home() {
 
     useEffect(() => {
         Aos.init({
-            duration: 2500,
+            duration: 3000,
         });
         Aos.refresh();
     }, [])
@@ -34,7 +34,7 @@ export default function Home() {
                     <Menu />
                     <div className="lg:flex block justify-between items-center gap-x-16 py-12 space-y-8">
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="">
+                        <div data-aos="slide-right" data-aos-delay="350" className="">
                             <img src={top} alt="Logo" className='sm:flex mx-auto' />
 
                             <h1>
@@ -45,7 +45,7 @@ export default function Home() {
 
                         <div className='lg:flex hidden flex-col items-center justify-between gap-y-64'>
 
-                            <div className='space-y-4'>
+                            <div data-aos="zoom-in" className='space-y-4'>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fill-opacity="0.49" />
                                 </svg>
@@ -60,7 +60,7 @@ export default function Home() {
                                 </svg>
                             </div>
 
-                            <div className='space-y-4'>
+                            <div data-aos="zoom-in" className='space-y-4'>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fill-opacity="0.49" />
                                 </svg>
@@ -85,7 +85,7 @@ export default function Home() {
                                 wing chun coin
                             </h1>
 
-                            <p className='pt-6 lg:leading-loose font-medium'>
+                            <p data-aos="fade-up" className='pt-6 lg:leading-loose font-medium'>
                                 Wing Chun Coin holders will demonstrate absoulute strength and patience when it comes to Holding and sheet determination to shill and destroy all competion.
                             </p>
 
@@ -114,7 +114,7 @@ export default function Home() {
 
                         <div data-aos="fade-left" className="lg:w-7/12 w-full">
 
-                            <h2 className='md:text-5xl text-3xl font-bold font-hirosh'>
+                            <h2 data-aos="fade-down" className='md:text-5xl text-3xl font-bold font-hirosh'>
                                 About Us
                             </h2>
 
@@ -122,7 +122,7 @@ export default function Home() {
                                 Wing Chun Coin: Unleashing the Power of Meme Finance with Martial Arts Mastery!
                             </p>
 
-                            <p className='py-5 lg:leading-loose font-medium'>
+                            <p data-aos="fade-up" className='py-5 lg:leading-loose font-medium'>
                                 Drawing inspiration from the legendary art form developed by the late grandmaster Yip Man, Wing Chun Coin takes flight as a symbol of strength, agility, and resilience in the unpredictable landscape of the crypto market. Just as Wing Chun practitioners master the art of close-quarters combat, Wing Chun Coin aims to conquer the digital realm with lightning-fast transactions and an unwavering dedication to its community
                             </p>
 
@@ -137,14 +137,14 @@ export default function Home() {
             <div id='tokenomics' className="lg:px-20 px-5 lg:pt-8">
                 <div className='container mx-auto'>
 
-                    <img src={dragon} alt="Logo" className='sm:flex mx-auto absolute right-0 left-0 -mt-12' />
+                    <img data-aos="slide-down" src={dragon} alt="Logo" className='sm:flex mx-auto absolute right-0 left-0 lg:-mt-12' />
 
-                    <h2 className='md:text-5xl text-3xl font-bold font-hirosh text-center'>
+                    <h2 data-aos="fade-up" className='md:text-5xl text-3xl font-bold font-hirosh text-center'>
                         TOKENOMICS
                     </h2>
-                    <div className="grid lg:grid-cols-3 grid-cols-1 items-center justify-items-center gap-16 lg:mt-12 mt-6">
+                    <div className="grid lg:grid-cols-3 grid-cols-1 items-center justify-items-center gap-16 lg:mt-16 mt-6">
 
-                        <div className='space-y-8'>
+                        <div data-aos="fade-right" className='space-y-8'>
                             <p className='lg:text-5xl text-2xl font-electro'>
                                 MW
                             </p>
@@ -153,7 +153,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className='space-y-8'>
+                        <div data-aos="zoom-in" className='space-y-8'>
                             <p className='lg:text-5xl text-2xl font-electro'>
                                 LP
                             </p>
@@ -162,7 +162,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className='space-y-8'>
+                        <div data-aos="flip-left" className='space-y-8'>
                             <p className='lg:text-5xl text-2xl font-electro'>
                                 BUSD
                             </p>
@@ -179,18 +179,18 @@ export default function Home() {
 
             <div id='working' className="mt-8">
 
-                <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
+                <div className="lg:pt-20 py-5 lg:px-20 px-5 container mx-auto">
 
                     <div className='flex items-center justify-center'>
-                        <img src={umbrella} alt="Logo" className='lg:block hidden' />
+                        <img data-aos="flip-right" src={umbrella} alt="Logo" className='lg:block hidden' />
 
-                        <h3 className="md:text-6xl text-2xl font-hirosh font-semibold text-center">
+                        <h3 data-aos="fade-left" className="md:text-6xl text-2xl font-hirosh font-semibold text-center">
                             TOKEN ALLOCATION
                         </h3>
                     </div>
 
 
-                    <img src={chart} alt="Logo" className='flex mx-auto lg:py-12 py-6' />
+                    <img data-aos="zoom-in" src={chart} alt="Logo" className='flex mx-auto lg:py-12 py-6 lg:w-6/12' />
 
                 </div>
 
@@ -203,10 +203,10 @@ export default function Home() {
                 className="lg:pb-12 py-5 lg:px-8 px-5 container mx-auto"
             >
                 <div className='flex items-center justify-center gap-x-8'>
-                    <h3 className="md:text-6xl text-2xl font-hirosh font-semibold text-center">
+                    <h3 data-aos="slide-right" className="md:text-6xl text-2xl font-hirosh font-semibold text-center">
                         Chart
                     </h3>
-                    <img src={ballon} alt="Logo" className='lg:block hidden' />
+                    <img data-aos="flip-right" src={ballon} alt="Logo" className='lg:block hidden' />
                 </div>
 
                 <div className='flex items-center justify-center gap-x-3 pt-6'>
@@ -257,13 +257,23 @@ export default function Home() {
                 id="roadmap"
                 className="lg:py-12 py-5 lg:px-8 px-5 container mx-auto"
             >
-                <h3 className="md:text-6xl text-2xl font-hirosh font-semibold text-center">
+                <h3 data-aos="fade-up" className="md:text-6xl text-2xl font-hirosh font-semibold text-center">
                     Roadmap
                 </h3>
 
-                <img src={roadmap} alt="Logo" className='mt-6' />
+                <img src={roadmap} alt="Logo" className='lg:mt-12 mt-6' />
 
-                {/* <div className="lg:mt-12 mt-6 rounded-2xl bg-blue-200 lg:p-12 p-6">
+                {/* <div>
+                    <div className='flex items-center justify-between gap-x-4'>
+
+
+
+                    </div>
+                </div>
+
+                <div className="lg:mt-12 mt-6 rounded-2xl lg:p-12 p-6">
+
+
 
                     <div className="h-1 w-full bg-black-50">
 
@@ -390,11 +400,13 @@ export default function Home() {
                     </div>
                 </div> */}
 
+
+
                 <div className='flex flex-col items-center justify-center gap-y-8 lg:mt-12 mt-6'>
                     <div className='flex items-center justify-center gap-x-8'>
-                        <img src={fan} alt="Logo" className='lg:block hidden' />
+                        <img data-aos="flip-left" src={fan} alt="Logo" className='lg:block hidden' />
 
-                        <h3 className="md:text-6xl text-2xl font-hirosh font-semibold text-center">
+                        <h3 data-aos="fade-left" className="md:text-6xl text-2xl font-hirosh font-semibold text-center">
                             JOIN US
                         </h3>
                     </div>
