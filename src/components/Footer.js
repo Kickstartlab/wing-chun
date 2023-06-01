@@ -1,9 +1,6 @@
 import React from 'react'
 import twitter from '../assets/twitter.png';
 import telegram from '../assets/telegram.png';
-import discord from '../assets/discord.png';
-import youtube from '../assets/youtube.png';
-
 
 
 

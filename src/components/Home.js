@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import dragon from '../assets/dragon.png';
-import roadmap from '../assets/roadmap.png';
 import top from '../assets/top.png';
 import text from '../assets/text.png';
 import fan from '../assets/fan.png';
@@ -10,14 +9,9 @@ import chart from '../assets/chart.png';
 import umbrella from '../assets/umbrella.png';
 import ballon from '../assets/ballon.png';
 import one from '../assets/one.png';
-import two from '../assets/two.png';
-import three from '../assets/three.png';
-import four from '../assets/four.png';
-import five from '../assets/five.png';
-import six from '../assets/six.png';
-import seven from '../assets/seven.png';
 import graph from '../assets/graph.png';
-
+import line from '../assets/line.png';
+import uni from '../assets/uni.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -150,36 +144,16 @@ export default function Home() {
                     <h2 data-aos="fade-up" className='md:text-5xl text-3xl font-bold font-hirosh text-center'>
                         TOKENOMICS
                     </h2>
-                    <div className="grid lg:grid-cols-3 grid-cols-1 items-center justify-items-center gap-16 lg:mt-16 mt-6">
 
-                        <div data-aos="fade-right" className='space-y-8'>
-                            <p className='lg:text-5xl text-2xl font-electro'>
-                                MW
+                        <div data-aos="fade-right" className='space-y-8 text-center lg:mt-16 mt-6 flex items-center justify-center gap-x-24'>
+                            <p className='lg:text-7xl text-2xl font-electro lg:mt-8'>
+                                TAX
                             </p>
-                            <p className='lg:text-4xl text-2xl font-opensans font-bold'>
-                                3%
+                            <p className='lg:text-7xl text-2xl font-opensans font-bold'>
+                                0/0
                             </p>
                         </div>
 
-                        <div data-aos="zoom-in" className='space-y-8'>
-                            <p className='lg:text-5xl text-2xl font-electro'>
-                                LP
-                            </p>
-                            <p className='lg:text-4xl text-2xl font-opensans font-bold'>
-                                3%
-                            </p>
-                        </div>
-
-                        <div data-aos="flip-left" className='space-y-8'>
-                            <p className='lg:text-5xl text-2xl font-electro'>
-                                BUSD
-                            </p>
-                            <p className='lg:text-4xl text-2xl font-opensans font-bold'>
-                                3%
-                            </p>
-                        </div>
-
-                    </div>
                 </div>
             </div>
 
@@ -197,8 +171,16 @@ export default function Home() {
                         </h3>
                     </div>
 
+                    <div className='lg:py-12 py-6'>
+                        <img data-aos="zoom-in" src={one} alt="Logo" className='w-2/12 absolute left-72 mt-32' />
 
-                    <img data-aos="zoom-in" src={chart} alt="Logo" className='flex mx-auto lg:py-12 py-6 lg:w-6/12' />
+                        <img data-aos="zoom-in" src={chart} alt="Logo" className='flex mx-auto' />
+
+                        <div className='absolute -mt-80 right-1/4 -mr-16'>
+                            <img data-aos="zoom-in" src={uni} alt="Logo" className='w-5/12 ml-10' />
+                            <img data-aos="zoom-in" src={line} alt="Logo" className='w-7/12' />
+                        </div>
+                    </div>
 
                 </div>
 
