@@ -11,6 +11,8 @@ import ballon from '../assets/ballon.png';
 import one from '../assets/one.png';
 import graph from '../assets/graph.png';
 import line from '../assets/line.png';
+import view from '../assets/view.png';
+import referal from '../assets/referal.png';
 import uni from '../assets/uni.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -145,14 +147,14 @@ export default function Home() {
                         TOKENOMICS
                     </h2>
 
-                        <div data-aos="fade-right" className='space-y-8 text-center lg:mt-16 mt-6 flex items-center justify-center gap-x-24'>
-                            <p className='lg:text-7xl text-2xl font-electro lg:mt-8'>
-                                TAX
-                            </p>
-                            <p className='lg:text-7xl text-2xl font-opensans font-bold'>
-                                0/0
-                            </p>
-                        </div>
+                    <div data-aos="fade-right" className='space-y-8 text-center lg:mt-16 mt-6 flex items-center justify-center gap-x-24'>
+                        <p className='lg:text-7xl text-2xl font-electro mt-8'>
+                            TAX
+                        </p>
+                        <p className='lg:text-7xl text-2xl font-opensans font-bold'>
+                            0/0
+                        </p>
+                    </div>
 
                 </div>
             </div>
@@ -172,13 +174,13 @@ export default function Home() {
                     </div>
 
                     <div className='lg:py-12 py-6'>
-                        <img data-aos="zoom-in" src={one} alt="Logo" className='w-2/12 absolute left-72 mt-32' />
+                        <img data-aos="zoom-in" src={one} alt="Logo" className='lg:w-2/12 w-4/12 absolute lg:left-72 lg:mt-32 mt-12 z-20' />
 
-                        <img data-aos="zoom-in" src={chart} alt="Logo" className='flex mx-auto' />
+                        <img data-aos="zoom-in" src={chart} alt="Logo" className='flex mx-auto -z-20 lg:w-6/12 w-10/12' />
 
-                        <div className='absolute -mt-80 right-1/4 -mr-16'>
-                            <img data-aos="zoom-in" src={uni} alt="Logo" className='w-5/12 ml-10' />
-                            <img data-aos="zoom-in" src={line} alt="Logo" className='w-7/12' />
+                        <div className='absolute lg:-mt-80 -mt-44 right-1/4 -mr-16'>
+                            <img data-aos="zoom-in" src={uni} alt="Logo" className='lg:w-5/12 w-12 ml-10' />
+                            <img data-aos="zoom-in" src={line} alt="Logo" className='lg:w-7/12 w-16' />
                         </div>
                     </div>
 
@@ -199,7 +201,16 @@ export default function Home() {
                     <img data-aos="flip-right" src={ballon} alt="Logo" className='lg:block hidden' />
                 </div>
 
-                <div className='flex items-center justify-center gap-x-3 pt-6'>
+                <div className='flex items-center gap-x-6 float-right lg:py-0 py-10'>
+                    <a href='https://www.dextools.io/app/en/ether/pair-explorer/0x728f8e3294a7db7a60b683f5435484276729083e'>
+                        <img data-aos="flip-right" src={view} alt="Logo" className='w-24' />
+                    </a>
+                    <a href='#contract'>
+                        <img data-aos="flip-right" src={referal} alt="Logo" className='w-24' />
+                    </a>
+                </div>
+
+                <div className='lg:flex items-center justify-center gap-x-3 pt-6'>
                     <div className='space-y-8 lg:block hidden'>
                         <p>
                             30k

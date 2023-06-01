@@ -22,7 +22,8 @@ export default function Menu() {
             <li><a href="/" className="font-semibold">Home</a></li>
             <li><a href="#about" className="font-semibold">About</a></li>
             <li><a href="#tokenomics" className="font-semibold">Tokenomics</a></li>
-            <li><a href="#contact" className="font-semibold">Contact</a></li>
+            <li><a href="https://www.dextools.io/app/en/ether/pair-explorer/0x728f8e3294a7db7a60b683f5435484276729083e" className="font-semibold">Chart</a></li>
+            <li><a href="https://t.me/wing_chun_coin" className="font-semibold">Join us</a></li>
           </ul>
         </nav>
 
@@ -65,9 +66,12 @@ export default function Menu() {
             <a href="#tokenomics" className="text-lg ml-4 font-semibold">Tokenomics</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer text-white-100">
-            <a href="#contact" className="text-lg ml-4 font-semibold">Contact</a>
+            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x728f8e3294a7db7a60b683f5435484276729083e" className="text-lg ml-4 font-semibold">Chart</a>
           </button>
-          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-black-100 bg-white-100">
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer text-white-100">
+            <a href="https://t.me/wing_chun_coin" className="text-lg ml-4 font-semibold">Join Us</a>
+          </button>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-black-100 bg-white-100"> 
             <a href="/" className="text-lg ml-4 font-semibold">Buy Now</a>
           </button>
         </div> : null
