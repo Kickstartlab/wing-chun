@@ -14,18 +14,6 @@ export default function Footer() {
 
         <div className="flex flex-col items-center justify-center gap-y-8 mx-auto">
 
-          <h2 className='md:text-4xl text-2xl font-montserat font-semibold text-blue-100'>
-            Don't miss out, Stay updated
-          </h2>
-
-          <div className="py-1 pl-6 pr-1 lg:w-6/12 w-full lg:space-y-0 space-y-5 lg:flex items-center justify-between lg:border-2 border-blue-100 rounded-full">
-            <input type="email" placeholder="Enter your email" id="email" required="" className="lg:p-0 p-5 lg:rounded-none rounded-full focus:ring-0 focus:outline-none lg:w-7/12 w-full bg-white-50 lg:border-0 border-2 border-blue-100" />
-
-            <button className=' lg:px-12 px-2 lg:py-3 py-2 bg-blue-100 rounded-full text-white-100'>
-              Subcribe
-            </button>
-          </div>
-
           <div className='text-center flex mx-auto lg:w-1/2 font-medium'>
             <p>
               Don’t hesitate to subscribe to latest news about ICo markets as well as crucial financial knowledge to become successful investors globally

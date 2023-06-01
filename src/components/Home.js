@@ -9,7 +9,15 @@ import fan from '../assets/fan.png';
 import chart from '../assets/chart.png';
 import umbrella from '../assets/umbrella.png';
 import ballon from '../assets/ballon.png';
+import one from '../assets/one.png';
+import two from '../assets/two.png';
+import three from '../assets/three.png';
+import four from '../assets/four.png';
+import five from '../assets/five.png';
+import six from '../assets/six.png';
+import seven from '../assets/seven.png';
 import graph from '../assets/graph.png';
+
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -261,57 +269,46 @@ export default function Home() {
                     Roadmap
                 </h3>
 
-                <img src={roadmap} alt="Logo" className='lg:mt-12 mt-6' />
-
-                {/* <div>
-                    <div className='flex items-center justify-between gap-x-4'>
-
-
-
-                    </div>
-                </div>
-
                 <div className="lg:mt-12 mt-6 rounded-2xl lg:p-12 p-6">
 
+                    <div className=''>
+                        <div className="h-1 w-full bg-yellow-50">
 
+                        </div>
 
-                    <div className="h-1 w-full bg-black-50">
+                        <div className='h-1 w-full line -translate-y-1'>
 
+                        </div>
                     </div>
 
-                    <div className='h-1 w-full line -translate-y-1'>
-
-                    </div>
-
-                    <div className="lg:flex items-baseline justify-between gap-6 lg:px-20 lg:space-y-0 space-y-6 -mt-2.5">
+                    <div className="lg:flex items-baseline justify-between gap-6 lg:px-20 lg:space-y-0 space-y-6 -mt-1.5">
 
                         <div className="flex flex-col items-center">
                             <div
                                 data-aos="zoom-in"
                                 className="absolute -mt-3.5 lg:block hidden"
                             >
-                                <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#A584DF" />
-                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#A584DF" />
+                                <svg width="28" height="29" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#940030" />
+                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#940030" />
                                 </svg>
 
                             </div>
 
-                            <div className="border-l border-white-50 lg:mt-5 mt-0 mb-3 h-14"></div>
+                            <div className="border-l border-yellow-50 lg:mt-5 mt-0 mb-3 h-14"></div>
 
                             <div
                                 data-aos="flip-right"
-                                className="border border-white-50 rounded-2xl  p-5 lg:w-72 hover:bg-purple-100"
+                                className="border border-yellow-50 rounded-2xl  p-5 lg:w-72 hover:bg-purple-100"
                             >
-                                <h5 className="text-2xl py-4 font-semibold">PHASE 1</h5>
+                                <h5 className="text-xl font-hirosh py-4 font-semibold">Q:1 Establishing the Foundation</h5>
 
-                                <ul className="space-y-4 list-disc p-4">
-                                    <li>Social Media set up: Twitter, Medium and Telegram</li>
-                                    <li>Website development </li>
-                                    <li>Community building</li>
-                                    <li>Stealth Launch on Arbitrum</li>
-                                    <li>Dapp V1</li>
-                                    <li>White Paper V1 Release</li>
+                                <ul className="list-disc p-4">
+                                    <li>Launch the Wing Chun Coin website and social media channels.</li>
+                                    <li>Conduct a fair and transparent token distribution to the community.</li>
+                                    <li>Initiate marketing campaigns to introduce Wing Chun Coin to investors and enthusiasts.</li>
+                                    <li>Establish partnerships with other crypto projects.</li>
+                                    <li>Engage with the community and address any concerns</li>
                                 </ul>
                             </div>
                         </div>
@@ -321,26 +318,26 @@ export default function Home() {
                                 data-aos="zoom-in"
                                 className="absolute -mt-3.5 lg:block hidden"
                             >
-                                <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#A584DF" />
-                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#A584DF" />
+                                <svg width="28" height="29" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#940030" />
+                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#940030" />
                                 </svg>
                             </div>
 
-                            <div className="border-l border-white-50 lg:mt-5 mt-0 mb-3 h-14"></div>
+                            <div className="border-l border-yellow-50 lg:mt-5 mt-0 mb-3 h-14"></div>
 
                             <div
                                 data-aos="flip-left"
-                                className="border border-white-50 rounded-2xl  p-5 lg:w-72 hover:bg-purple-100"
+                                className="border border-yellow-50 rounded-2xl  p-5 lg:w-72 hover:bg-purple-100"
                             >
-                                <h5 className="text-2xl py-4 font-semibold">PHASE 2</h5>
+                                <h5 className="text-xl font-hirosh py-4 font-semibold">Q2: Building the Infrastructure</h5>
 
-                                <ul className="space-y-4 list-disc p-5">
-                                    <li>CMC Listing</li>
-                                    <li>CG Listing</li>
-                                    <li>Dapp V2</li>
-                                    <li>Platform and contract audits</li>
-                                    <li>Listing on tier 2 exchange</li>
+                                <ul className="list-disc p-4">
+                                    <li>List Wing Chun Coin on decentralized exchanges (DEXs) for enhanced liquidity.</li>
+                                    <li>Develop a secure and user-friendly wallet for Wing Chun Coin holders.</li>
+                                    <li>Enhance the functionality and efficiency of the Wing Chun Coin blockchain.</li>
+                                    <li>Regular security audits to ensure user funds' safety.</li>
+                                    <li>Educate the community about the token's benefits.</li>
                                 </ul>
                             </div>
                         </div>
@@ -350,25 +347,26 @@ export default function Home() {
                                 data-aos="zoom-in"
                                 className="absolute -mt-3.5 lg:block hidden"
                             >
-                                <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#A584DF" />
-                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#A584DF" />
+                                <svg width="28" height="29" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#940030" />
+                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#940030" />
                                 </svg>
                             </div>
 
-                            <div className="border-l border-white-50 lg:mt-5 mt-0 mb-3 h-14"></div>
+                            <div className="border-l border-yellow-50 lg:mt-5 mt-0 mb-3 h-14"></div>
 
                             <div
                                 data-aos="flip-left"
-                                className="border border-white-50 rounded-2xl  p-5 lg:w-72 hover:bg-purple-100"
+                                className="border border-yellow-50 rounded-2xl  p-5 lg:w-72 hover:bg-purple-100"
                             >
-                                <h5 className="text-2xl py-4 font-semibold">PHASE 3</h5>
+                                <h5 className="text-xl font-hirosh py-4 font-semibold">Q3: Expanding the Community</h5>
 
-                                <ul className="space-y-4 list-disc p-5">
-                                    <li>Strategic Partnerships</li>
-                                    <li>New Exchanges Listing CEX</li>
-                                    <li>Further community growth</li>
-                                    <li>Large Marketing Campaigns</li>
+                                <ul className="list-disc p-4">
+                                    <li>Organize events, webinars, and AMAs to engage the community.</li>
+                                    <li>Expand marketing efforts to attract new investors.</li>
+                                    <li>Seek partnerships with influencers and content creators.</li>
+                                    <li>Launch a referral program to incentivize community growth.</li>
+                                    <li>Implement governance features for token holders.</li>
                                 </ul>
                             </div>
                         </div>
@@ -378,27 +376,31 @@ export default function Home() {
                                 data-aos="zoom-in"
                                 className="absolute -mt-3.5 lg:block hidden"
                             >
-                                <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#A584DF" />
-                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#A584DF" />
+                                <svg width="28" height="29" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#940030" />
+                                    <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#940030" />
                                 </svg>
                             </div>
 
-                            <div className="border-l border-white-50 lg:mt-5 mt-0 mb-3 h-14"></div>
+                            <div className="border-l border-yellow-50 lg:mt-5 mt-0 mb-3 h-14"></div>
 
                             <div
                                 data-aos="flip-right"
-                                className="border border-white-50 rounded-2xl  p-5 lg:w-72 hover:bg-purple-100"
+                                className="border border-yellow-50 rounded-2xl  p-5 lg:w-72 hover:bg-purple-100"
                             >
-                                <h5 className="text-2xl py-4 font-semibold">PHASE 4</h5>
+                                <h5 className="text-xl font-hirosh py-4 font-semibold">Q4: Advancing Growth and Adoption</h5>
 
-                                <ul className="space-y-4 list-disc p-5">
-                                    <li>To be Announced</li>
+                                <ul className="list-disc p-4">
+                                    <li>Introduce utility use cases for Wing Chun Coin, like staking and governance voting.</li>
+                                    <li>Enable Wing Chun Coin as a payment option with collaborating merchants and platforms.</li>
+                                    <li>Support charitable causes for positive societal impact.</li>
+                                    <li>Continuously improve the project based on user feedback.</li>
+                                    <li>Explore additional listings on centralized exchanges for increased accessibility.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
 
 
@@ -412,12 +414,12 @@ export default function Home() {
                     </div>
 
                     <p className='flex mx-auto text-center lg:w-1/2 font-medium'>
-                        Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                        Join us today and unlock the power of Wing Chun Coin! Together, we will forge a new path in the realm of meme finance, driven by the principles of martial arts mastery.
                     </p>
 
-                    <button className='text-xl text-white-100 hover:text-blue-100 border-2 border-blue-100 hover:bg-white-50 rounded-2xl font-electro bg-blue-100 lg:px-8 px-4 py-3'>
+                    {/* <button className='text-xl text-white-100 hover:text-blue-100 border-2 border-blue-100 hover:bg-white-50 rounded-2xl font-electro bg-blue-100 lg:px-8 px-4 py-3'>
                         CONNECT
-                    </button>
+                    </button> */}
                 </div>
             </div>
 
