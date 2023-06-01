@@ -55,31 +55,31 @@ export default function Home() {
 
                             <div data-aos="zoom-in" className='space-y-4'>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fill-opacity="0.49" />
+                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fillOpacity="0.49" />
                                 </svg>
 
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fill-opacity="0.49" />
+                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fillOpacity="0.49" />
                                 </svg>
 
 
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fill-opacity="0.49" />
+                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fillOpacity="0.49" />
                                 </svg>
                             </div>
 
                             <div data-aos="zoom-in" className='space-y-4'>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fill-opacity="0.49" />
+                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fillOpacity="0.49" />
                                 </svg>
 
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fill-opacity="0.49" />
+                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fillOpacity="0.49" />
                                 </svg>
 
 
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fill-opacity="0.49" />
+                                    <circle cx="12" cy="12" r="12" transform="rotate(90 12 12)" fill="#D9D9D9" fillOpacity="0.49" />
                                 </svg>
                             </div>
 
@@ -416,10 +416,6 @@ export default function Home() {
                     <p className='flex mx-auto text-center lg:w-1/2 font-medium'>
                         Join us today and unlock the power of Wing Chun Coin! Together, we will forge a new path in the realm of meme finance, driven by the principles of martial arts mastery.
                     </p>
-
-                    {/* <button className='text-xl text-white-100 hover:text-blue-100 border-2 border-blue-100 hover:bg-white-50 rounded-2xl font-electro bg-blue-100 lg:px-8 px-4 py-3'>
-                        CONNECT
-                    </button> */}
                 </div>
             </div>
 

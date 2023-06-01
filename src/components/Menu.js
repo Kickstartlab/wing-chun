@@ -21,8 +21,8 @@ export default function Menu() {
           <ul className="text-md flex justify-center gap-12 items-center">
             <li><a href="/" className="font-semibold">Home</a></li>
             <li><a href="#about" className="font-semibold">About</a></li>
-            <li><a href="/" className="font-semibold">Tokenomics</a></li>
-            <li><a href="/" className="font-semibold">Contact</a></li>
+            <li><a href="#tokenomics" className="font-semibold">Tokenomics</a></li>
+            <li><a href="#contact" className="font-semibold">Contact</a></li>
           </ul>
         </nav>
 
@@ -52,7 +52,7 @@ export default function Menu() {
 
           <div className="mt-3 px-3 mb-12">
             <a href="/" className="">
-              <img src={logo} alt="Logo" />
+              <img src={logo} alt="Logo" className='w-10/12' />
             </a>
           </div>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md transition duration-500 cursor-pointer  ">
@@ -65,7 +65,7 @@ export default function Menu() {
             <a href="#tokenomics" className="text-lg ml-4 font-semibold">Tokenomics</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer text-white-100">
-            <a href="/" className="text-lg ml-4 font-semibold">Contact</a>
+            <a href="#contact" className="text-lg ml-4 font-semibold">Contact</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-black-100 bg-white-100">
             <a href="/" className="text-lg ml-4 font-semibold">Buy Now</a>
