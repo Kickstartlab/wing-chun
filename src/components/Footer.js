@@ -1,6 +1,8 @@
 import React from 'react'
 import twitter from '../assets/twitter.png';
 import telegram from '../assets/telegram.png';
+import logo_2 from '../assets/logo_2.png';
+
 
 
 
@@ -19,9 +21,17 @@ export default function Footer() {
             <img src={telegram} alt="Facebook" className='' />
           </a>
 
+          <a href='mailto:team@wingchuncoin.net' className='p-2 bg-white-20 rounded-lg w-10 h-10 text-center'>
+            <i className="fa fa-envelope text-white-100 text-2xl -translate-y-1" aria-hidden="true"></i>
+          </a>
+
         </div>
 
-        <p className='pt-8 pb-6 text-center'>© {new Date().getFullYear()} All rights reserved by wing chun.</p>
+        <div className='text-center mt-6 mb-3'>
+          <a href='mailto:team@wingchuncoin.net' className='text-blue-100'>Email: Team@wingchuncoin.net</a>
+        </div>
+
+        <p className='pb-6 text-center'>© {new Date().getFullYear()} All rights reserved by <a href={logo_2} target='_blank'>wing chun</a>.</p>
       </footer>
     </div>
 

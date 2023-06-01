@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import dragon from '../assets/dragon.png';
